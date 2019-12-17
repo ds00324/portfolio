@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+    .wrap{width:100%;background:url(../img/n2.jpg) no-repeat center center;background-size:cover;background-attachment:fixed;}
+    .header{width:100%;padding:20px;position:fixed;top:0;}
+    .header.active{background:aliceblue;height:60px;box-shadow:0 1px 1px #1F434F;opacity:0.8;z-index: 10;}
+    .header>div{float:left;width:60%;}
+    .header>div>a{color:aliceblue;font-family: 'Roboto', sans-serif;font-size:30px;}
+    .header>div>a.active{color:#1F434F;}
+    .header>ul{display:flex;flex-flow:row nowrap;float:right;width:40%;transform:translateX(-80%);}
+    .header>ul>li{width:25%;text-align:center;font-family:'Roboto',sans-serif;font-size:24px;color:aliceblue;cursor:pointer;margin-left: 40px;}
+    .header>ul>li.active{color:#1F434F;}
+    .li_home:hover{border-bottom:#1F434F solid 2px;}
+    .li_about:hover{border-bottom:#1F434F solid 2px;}
+    .li_portfolio:hover{border-bottom:#1F434F solid 2px;}
+    .li_contact:hover{border-bottom:#1F434F solid 2px;}
+
+    .home{width:100%;}
+    .home>div{width:100%;text-align:center;padding:250px 0;}
+    .home>div>h1{font-size:60px;padding-bottom:30px;font-family: 'Roboto', sans-serif;color:#ef9576;text-shadow:2px 2px 2px #1F434F;}
+    .home>div>h2{font-size:20px;font-family: 'Noto Sans KR', sans-serif;color:aliceblue;}
+
+    .about{width:100%;text-align:center;border:dashed 3px rgba(240, 248, 255,0.5);padding-bottom:50px;border-radius:55px;}
+    .about>h1{width:100%;padding:30px 0;font-size:40px;font-family: 'Noto Sans KR', sans-serif;color:#ef9576;font-weight: bolder;text-shadow:2px 2px 2px #1F434F;}
+    .about>div:nth-of-type(1){width:100%;display:flex;flex-flow:row nowrap;}
+    .about>div:nth-of-type(1)>ul{width:33%;font-family: 'Noto Sans KR', sans-serif;font-size:40px;color:aliceblue;margin:0 2%;padding:2% 0;text-shadow:2px 2px 2px #1F434F;}
+    .about>div:nth-of-type(1)>ul:nth-of-type(1){background:rgba(162, 165, 174,0.3);}
+    .about>div:nth-of-type(1)>ul:nth-of-type(2){color:#ef9576;background:rgba(99, 115, 159,0.3);}
+    .about>div:nth-of-type(1)>ul:nth-of-type(3){background:rgba(162, 165, 174,0.3);}
+    .about>div:nth-of-type(1)>ul>li{padding-top:20px;font-family: 'Noto Sans KR', sans-serif;color:#fff;text-shadow:1px 1px 1px #000;}
+    .about>div:nth-of-type(1)>ul>li:nth-of-type(1){padding-top:40px;}
+    .about>div:nth-of-type(1)>ul>li>span{font-family: 'Noto Sans KR', sans-serif;font-weight:700;color:#fff;}
+    .about>div:nth-of-type(2){margin:100px;text-align:center;}
+    .about>div:nth-of-type(2)>span:nth-of-type(1){display:block;color:#ef9576;font-size:30px;font-family: 'Roboto', sans-serif;margin-bottom:30px;text-shadow:2px 2px 2px #1F434F;}
+    .about>div:nth-of-type(2)>span:nth-of-type(2){color:#fff;font-family: 'Noto Sans KR', sans-serif;text-shadow:1px 1px 1px #000;}
+    .about>div:nth-of-type(2)>span:nth-of-type(2)>p{display:inline;color:#ef9576;font-family: 'Noto Sans KR', sans-serif;font-weight:600;text-shadow:1px 1px 1px #000;}
+    
+    .portfolio{width:100%;padding:50px 0;margin-top:50px;}
+    .portfolio p{text-align:center;}
+    .portfolio img{width:50%;margin-left:30%;border-radius:10%;}
+    .swiper-wrapper{position:relative;}
+    
+    .title{position:absolute;top:30%;left:10%;font-size:26px;color:aliceblue;font-family: 'Noto Sans KR', sans-serif;text-shadow:2px 2px 2px #1F434F;}
+    .subtitle{position:absolute;top:50%;left:10%;font-size:20px;color:aliceblue;font-family: 'Noto Sans KR', sans-serif;text-shadow:2px 2px 2px #1F434F;}
+
+    .contact_us{background:rgba(240, 248, 255,0.8);}
+    .contact_us>ul{text-align:center;padding:30px 0;border-top:1px solid aliceblue;border-bottom:2px solid aliceblue;margin:20px 0;}
+    .contact_us>ul>li:nth-of-type(1){width:100%;font-size:30px;font-family: 'Noto Sans KR', sans-serif;color:#ef9576;font-weight: bolder;text-shadow:2px 2px 2px #1F434F;}
+    .contact_us>ul>li:nth-of-type(2){width:100%;font-size:30px;font-family: 'Roboto', sans-serif;margin:40px 0 60px;}
+    .contact_us>ul>li:nth-of-type(3){width:100%;font-size:24px;font-family: 'Noto Sans KR', sans-serif;}
+    .contact_us>ul>li:nth-of-type(4){width:100%;font-size:24px;font-family: 'Noto Sans KR', sans-serif;}
