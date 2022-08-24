@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+body,header,section,nav,aside,footer,address,div,span,img,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,a,figure,figcaption{
+    margin:0;
+    padding:0;
+    border:none;
+    box-sizing:border-box;
+}
+form,button,input,select,option{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+ul,li,ol{
+    list-style:none;
+}
+
+div,p,span,ul,li,h1,h2,h3,h4,h5,h6,address,a,button,label,select,option{
+    /* font-family: 'Open Sans', sans-serif; */ /* 영어 */
+    font-family: 'Gothic A1', sans-serif;  /* 한글 */
+    font-size:16px;
+    color:#fff;
+    line-height:1.5em;
+    font-weight:400;
+}
+a{
+    text-decoration:none;
+}
+.clearfix::after{
+    display: block;
+    content:"";
+    clear: both;
+}
+
