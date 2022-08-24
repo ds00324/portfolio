@@ -24,7 +24,7 @@ $(function(){
         $('html, body').animate({scrollTop :0},800);
     })
     $('.li_about').on('click',function(){
-        $('html, body').animate({scrollTop :680},800);
+        $('html, body').animate({scrollTop :570},800);
     })
     $('.li_portfolio').on('click',function(){
         $('html, body').animate({scrollTop :1860},800);
