@@ -8,6 +8,4 @@ $(function(){
       $('header').removeClass('active');
     }
   })
-
-  });
 })
