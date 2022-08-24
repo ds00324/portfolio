@@ -4,12 +4,8 @@ $(function(){
         var windowTop=$(window).scrollTop();
         if(windowTop>=100){
         $('header').addClass('active');
-        $('header li').addClass('active1');
-
         }else{
         $('header').removeClass('active');
-        $('header li').removeClass('active1');
-
         }
     })
     var swiper = new Swiper('.swiper-container', {
