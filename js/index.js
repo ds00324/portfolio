@@ -4,12 +4,12 @@ $(function(){
         var windowTop=$(window).scrollTop();
         if(windowTop>=100){
         $('header').addClass('active');
-        $('header>ul>li').addClass('active');
-        $('.header>div>a').addClass('active');
+        $('header li').addClass('active1');
+
         }else{
         $('header').removeClass('active');
-        $('header>ul>li').removeClass('active');
-        $('.header>div>a').removeClass('active');
+        $('header li').removeClass('active1');
+
         }
     })
     var swiper = new Swiper('.swiper-container', {
@@ -31,10 +31,10 @@ $(function(){
         $('html, body').animate({scrollTop :680},800);
     })
     $('.li_portfolio').on('click',function(){
-        $('html, body').animate({scrollTop :1200},800);
+        $('html, body').animate({scrollTop :1860},800);
     })
     $('.li_contact').on('click',function(){
-        $('html, body').animate({scrollTop :2000},800);
+        $('html, body').animate({scrollTop :3000},800);
     })
     $(document).ready(function(){
         var i = 0;
