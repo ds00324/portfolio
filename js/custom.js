@@ -4,10 +4,8 @@ $(function(){
     var windowTop=$(window).scrollTop();
     if(windowTop>=100){
       $('header').addClass('active');
-      $('header il').addClass('active1');
     }else{
       $('header').removeClass('active');
-      $('header il').removeClass('active1');
     }
   })
 
